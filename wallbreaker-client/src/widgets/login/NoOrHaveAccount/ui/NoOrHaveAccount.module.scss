@@ -1,0 +1,23 @@
+.noOrHaveAccount {
+    text-align: center;
+}
+
+.text {
+    color: white;
+    text-shadow: #00000060 0 0 5px;
+    user-select: none;
+    font: var(--font-l);
+}
+
+.link {
+    color: var(--link-color);
+    text-decoration: underline;
+    cursor: pointer;
+    text-shadow: #00000060 0 0 5px;
+    user-select: none;
+    font: var(--font-l);
+}
+
+.link:hover {
+    color: var(--link-color-active);
+}

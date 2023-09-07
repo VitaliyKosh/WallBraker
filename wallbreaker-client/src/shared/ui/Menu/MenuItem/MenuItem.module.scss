@@ -1,0 +1,8 @@
+.menuItem {
+    padding: 15px 20px;
+    font: var(--font-l);
+    color: var(--inverted-on-bg-color);
+    background-color: var(--on-bg-color);
+    transition: all 0.3s;
+    cursor: pointer;
+}

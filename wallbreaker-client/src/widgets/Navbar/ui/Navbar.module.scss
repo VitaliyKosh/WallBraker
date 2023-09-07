@@ -1,0 +1,30 @@
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--inverted-primary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    z-index: 100;
+}
+
+.iconBox {
+    margin: 15px auto;
+}
+
+.ios {
+    margin-bottom: 25px;
+}
+
+.icon {
+    font-size: 35px;
+    color: white;
+    opacity: 0.6;
+    transition: all 0.2s;
+}
+
+.icon:active {
+    opacity: 0.9;
+}
+
+.active {
+    opacity: 1;
+}

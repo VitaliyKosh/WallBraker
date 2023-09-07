@@ -1,0 +1,40 @@
+.message {
+    position: relative;
+    background-color: var(--on-bg-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    width: max-content;
+    max-width: 90%;
+}
+
+.self {
+    align-self: flex-end;
+}
+
+.textBox {
+
+}
+
+.text {
+    color: var(--inverted-on-bg-color);
+    font: var(--font-m);
+    word-break: break-word;
+}
+
+.timeHide {
+    display: inline-block;
+    opacity: 0;
+    font: var(--font-s);
+    padding-left: 5px;
+}
+
+.time {
+    position: absolute;
+    bottom: 7px;
+    right: 10px;
+    color: var(--inverted-light-on-bg-color);
+    font: var(--font-s);
+    padding-left: 5px;
+    transform: translateY(3px);
+    margin-right: 0;
+}

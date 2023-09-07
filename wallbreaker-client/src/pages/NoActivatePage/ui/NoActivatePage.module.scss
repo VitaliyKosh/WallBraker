@@ -1,0 +1,40 @@
+.noActivatePage {
+    height: 100%;
+    background: var(--login-gradient-1);
+}
+
+.noActivatePageBg {
+    position: absolute;
+    background: var(--login-gradient-2);
+    filter: blur(100px);
+    height: calc(100% + 200px);
+    width: calc(100% + 200px);
+    top: 100px;
+    left: -100px;
+    pointer-events: none;
+}
+
+.noActivatePageContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font: var(--font-l);
+}
+
+.sendAgain {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font: var(--font-m);
+    text-decoration: underline;
+}

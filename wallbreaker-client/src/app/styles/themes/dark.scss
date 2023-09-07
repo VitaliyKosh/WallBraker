@@ -1,0 +1,31 @@
+.app.dark {
+    --app-main-color: rgb(146, 52, 52);
+    --app-main-color-active: rgb(155, 61, 61);
+
+    --bg-color: hsl(207, 0%, 10%);
+    --inverted-bg-color: rgb(255, 255, 255);
+
+    --on-bg-color: rgb(38, 38, 38); 
+    --on-bg-color-active: rgb(48, 48, 48);
+    --inverted-on-bg-color: rgb(255, 255, 255);
+
+
+    --primary-color: #363636; 
+    --primary-color-active: rgb(155, 61, 61);
+    --inverted-primary-color: rgb(255, 255, 255);
+
+    --secondary-color: rgb(28,58,173);
+    --inverted-secondary-color: rgb(0 0 0);
+
+    --login-gradient-1: linear-gradient(0deg, rgba(146,52,52,1) 0%, rgba(28,58,173,1) 100%);
+    --login-gradient-2: linear-gradient(90deg, rgba(255,255,255,0.2) 0%, rgba(100,255,100,0.2) 100%);
+
+    --link-color: rgb(91, 132, 221);
+    --link-color-active: rgb(100, 141, 230);
+
+    --warning-color: rgb(255 225 100);
+
+    --light-bg-text-color: rgb(200 200 200);
+
+    --input-color: rgb(255 255 255);
+}

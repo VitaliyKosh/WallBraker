@@ -1,0 +1,85 @@
+.menuBox {
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #00000030;
+}
+
+.menu {
+    background-color: var(--on-bg-color);
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.menuBox-opening {
+    animation: 0.3s menuBox-opening forwards;
+}
+
+.opening {
+    animation: 0.3s opening forwards;
+}
+
+.menuBox-open {
+
+}
+
+.open {
+
+}
+
+.menuBox-hiding {
+    animation: 0.3s menuBox-hiding forwards;
+    pointer-events: none;
+}
+
+.hiding {
+    animation: 0.3s hiding forwards;
+}
+
+.menuBox-hidden {
+    pointer-events: none;
+}
+
+.hidden {
+    
+}
+
+@keyframes opening {
+    from {
+        transform: translate(0, -100%);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes hiding {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(0px, -100%);
+    }
+}
+
+@keyframes menuBox-opening {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes menuBox-hiding {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,134 @@
+.fadeIn-TO_LEFT {
+    animation: 0.3s fadeIn-TO_LEFT forwards;
+}
+
+.fadeIn-TO_RIGHT {
+    animation: 0.3s fadeIn-TO_RIGHT forwards;
+}
+
+.fadeIn-SLIDE_IN {
+    box-shadow: var(--page-box-shadow);
+    animation: 0.3s fadeIn-SLIDE_IN forwards;
+}
+
+.fadeIn-SLIDE_OUT {
+    animation: 0.3s fadeIn-SLIDE_OUT forwards;
+}
+
+.fadeIn-CLEAR {
+    animation: 0s CLEAR forwards;
+}
+
+@keyframes fadeIn-TO_LEFT {
+    from {
+        transform: translate(100vw, 0);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fadeIn-TO_RIGHT {
+    from {
+        transform: translate(-100vw, 0px);
+    }
+    to {
+        transform: translate(0vw, 0);
+    }
+}
+
+@keyframes fadeIn-SLIDE_IN {
+    from {
+        transform: translate(100vw, 0);
+    }
+    to {
+        transform: translate(0vw, 0px);
+    }
+}
+
+@keyframes fadeIn-SLIDE_OUT {
+    from {
+        transform: translate(0vw, 0);
+    }
+    to {
+        transform: translate(0vw, 0px);
+    }
+}
+
+.fadeOut-TO_LEFT {
+    animation: 0.3s fadeOut-TO_LEFT forwards;
+}
+
+.fadeOut-TO_RIGHT {
+    animation: 0.3s fadeOut-TO_RIGHT forwards;
+}
+
+.fadeOut-SLIDE_OUT {
+    z-index: 1;
+    box-shadow: var(--page-box-shadow);
+    animation: 0.4s fadeOut-SLIDE_OUT forwards;
+}
+
+.fadeOut-CLEAR {
+    animation: 0s CLEAR forwards;
+}
+
+  
+@keyframes fadeOut-TO_LEFT {
+    from {
+      transform: translate(0px, 0px);
+    }
+    to {
+      transform: translate(-100vw, 0);
+    }
+}
+
+@keyframes fadeOut-TO_RIGHT {
+    from {
+        transform: translate(0vw, 0);
+    }
+    to {
+        transform: translate(100vw, 0px);
+    }
+}
+
+@keyframes fadeOut-SLIDE_OUT {
+    from {
+        transform: translate(0vw, 0);
+    }
+    to {
+        transform: translate(130vw, 0px);
+    }
+}
+
+@keyframes CLEAR {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.pageWrapper {
+    position: relative;
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.pageContainer {
+    background-color: var(--bg-color);
+    height: 100%;
+}
+
+.oldLocation {
+    background-color: var(--bg-color);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,117 @@
+.accountInfo {
+    background-color: var(--on-bg-color);
+    padding: 25px 25px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--inverted-on-bg-color);
+}
+
+.userInfo {
+    display: flex;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+}
+
+.avatarContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.avatarBox {
+    padding: 13px;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    box-shadow: var(--box-shadow-inset);
+    // aspect-ratio: 1 / 1;
+    height: 100%;
+
+}
+
+.avatar {
+    transform: translateY(-3px);
+    aspect-ratio: 1 / 1;
+    font-size: 50px;
+}
+
+.info {
+    font: var(--font-l);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 99999;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cash {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cashValue {
+    // padding-bottom: 1px;
+}
+
+.username {
+    font: var(--font-l);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usernameText {
+    font: var(--font-l);
+    flex: 1;
+}
+
+.inputBox {
+    position: relative;
+    flex: 1;
+}
+
+.usernameInput {
+    width: 100%;
+    font: var(--font-l);
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+    padding: 5px 40px 5px 15px;
+    margin: -5px 0;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.ruble {
+    margin-left: 3px;
+    margin-bottom: 0.5px;
+    font-size: 12px;
+}
+
+.plus {
+    font-size: 22px;
+}
+
+.xMark {
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.edit {
+    font-size: 22px;
+}
+
+.check {
+    font-size: 28px;
+}

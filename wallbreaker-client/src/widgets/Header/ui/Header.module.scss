@@ -1,0 +1,50 @@
+.header {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+
+.headerBar {
+    background-color: var(--primary-color);
+    color: var(--inverted-primary-color);
+}
+
+.titleBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.arrow {
+    aspect-ratio: 1 / 1;
+    font-size: 25px;
+    padding: 15px 0px 15px 20px;
+    cursor: pointer;
+}
+
+.title {
+    font: var(--font-xl);
+    padding: 15px 0 15px 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 40px;
+    text-overflow: ellipsis;
+}
+
+.ellipsisBox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.ellipsis {
+    font-size: 25px;
+    margin-left: 20px;
+}

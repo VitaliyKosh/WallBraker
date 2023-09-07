@@ -1,0 +1,31 @@
+.loginPage {
+    height: 100%;
+    background: var(--login-gradient-1);
+    position: relative;
+}
+
+.loginPageGradient {
+    position: absolute;
+    background: var(--login-gradient-2);
+    filter: blur(100px);
+    height: calc(100% + 200px);
+    width: calc(100% + 200px);
+    top: 100px;
+    left: -100px;
+    pointer-events: none;
+}
+
+.loginPageContainer {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,22 @@
+.textBox {
+    height: 54px;
+    display: flex;
+    background-color: var(--on-bg-color);
+    gap: 5px;
+}
+
+.input {
+    width: 100%;
+    margin: 10px 10px 10px 20px;
+    padding: 5px 10px;
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+    font: var(--font-m);
+}
+
+.sendButton {
+    font-size: 25px;
+    margin-right: 20px;
+    background-color: transparent;
+    color: var(--inverted-bg-color);
+}

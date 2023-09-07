@@ -1,0 +1,42 @@
+@import "reset";
+@import "variables/global";
+@import "themes/normal";
+@import "themes/dark";
+@import "native-like-experience";
+
+html {
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+    height: 100%;
+    overflow: hidden;
+} 
+
+body {
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+
+.app {
+    font: var(--font-m);
+    background: var(--bg-color);
+    color: var(--primary-color);
+    height: 100svh;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.content-page {
+    display: flex;
+}

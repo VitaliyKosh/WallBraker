@@ -1,0 +1,16 @@
+.input {
+    overflow: hidden;
+}
+
+.clear {
+    background-color: none;
+    // font: var(--font-m);
+    color: var(--inverted-bg-color);
+}
+
+.default {
+    font: var(--font-m);
+    background-color: var(--input-color);
+    border-radius: var(--border-radius);
+    padding: 5px 10px;
+}

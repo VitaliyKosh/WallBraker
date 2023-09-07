@@ -1,0 +1,82 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.inputBox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: var(--input-color);
+    border-radius: var(--border-radius);
+    padding: 10px 15px;
+    box-shadow: 0 0 15px 0 #00000030;
+    width: 100%;
+    max-width: 700px;
+    font: var(--font-l);
+    color: var(--app-main-color);
+}
+
+.input {
+    flex: 1;
+    font: var(--font-l);
+    color: var(--app-main-color);
+}
+
+.infoBox {
+    color: white;
+    text-align: center;
+}
+
+.buttonBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonAndForgetBox {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.forgetMessage {
+    font: var(--font-m);
+    color: white;
+    text-shadow: #00000060 0 0 5px;
+    user-select: none;
+    text-decoration: underline;
+}
+
+.warning {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    // bottom: -40px;
+    margin-top: 60px;
+    color: var(--warning-color);
+}
+
+.loginWarning {
+    margin-top: 90px;
+}
+
+.warningIcon {
+    margin-right: 5px;
+}
+
+.icon {
+    width: 25px;
+}
+
+.openMail {
+    margin-bottom: 4px;
+}

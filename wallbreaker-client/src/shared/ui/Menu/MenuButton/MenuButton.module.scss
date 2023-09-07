@@ -1,0 +1,11 @@
+.menuButton {
+    display: flex;
+}
+
+.icon {
+    width: 35px;
+}
+
+.menuItem:active {
+    background-color: var(--on-bg-color-active);
+}
